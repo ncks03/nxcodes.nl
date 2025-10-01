@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    padding: 50px 0;
+}
