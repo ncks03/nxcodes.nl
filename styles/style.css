@@ -4,8 +4,22 @@
     font-family: helvetica, sans-serif;
 }
 
+@keyframes colorFlow {
+    0% {
+        color: #00bbff;
+    }
+    50% {
+        color: #3868eb;
+    }
+    100% {
+        color: #00bbff ;
+    }
+}
+
 body {
     text-align: center;
+    background-color: #111111;
+    color: #CCCCCC;
 }
 
 h1 {
@@ -14,4 +28,17 @@ h1 {
 
 p {
     padding: 25px 0;
+}
+
+a, a:visited {
+    color: #EEEEEE;
+}
+
+a:hover {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+#header-name {
+    animation: colorFlow 6s ease-in-out infinite;
 }
